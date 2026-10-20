@@ -1,3 +1,4 @@
+
 # Sistema de Gestión de Artefactos Mágicos de Instanciaveria
 
 * **Actividad:** Laboratorio 2 - POO 2026 (11[02]76)
@@ -11,23 +12,23 @@
 
 # Integrantes del Grupo
 
-- Estudiante 1 (Legajo 1)
-- Estudiante 2 (Legajo 2)
+- Mateo S (94)
+- Franco V (86)
 
 ---
 
 # Contexto / Escenario
 
-¡El Torneo de los Tres Reinos es inminente! La Academia de Hechicería Arcana ha reunido a un concilio 
-de los más grandes artesanos para potenciar su arsenal. Un maestro **Herrero Enano** aplicará su magia 
-rúnica a las _varitas_, y un delicado **Artesano Élfico** es especialista en encantar _amuletos_. Además, 
-un sabio **Escriba Arcano** ha sido convocado para re-inscribir los _pergaminos_ de poder, aunque su magia 
-es volátil y arriesgada. Finalmente, un **Alquimista Experto** está destilando pociones para fortalecer a 
+¡El Torneo de los Tres Reinos es inminente! La Academia de Hechicería Arcana ha reunido a un concilio
+de los más grandes artesanos para potenciar su arsenal. Un maestro **Herrero Enano** aplicará su magia
+rúnica a las _varitas_, y un delicado **Artesano Élfico** es especialista en encantar _amuletos_. Además,
+un sabio **Escriba Arcano** ha sido convocado para re-inscribir los _pergaminos_ de poder, aunque su magia
+es volátil y arriesgada. Finalmente, un **Alquimista Experto** está destilando pociones para fortalecer a
 los campeones, asegurándose de que no excedan los límites mortales.
 
 El sistema actual del `CatalogoArtefactos` es demasiado rígido para manejar estas especialidades.
 Tu misión es refactorizar el sistema para que pueda colaborar con las distintas **Estrategias de Mejora**
-sin necesidad de modificar su código interno cada vez que un nuevo artesano se una a la causa. Para ello, 
+sin necesidad de modificar su código interno cada vez que un nuevo artesano se una a la causa. Para ello,
 te valeras de la antigua sabiduria conocida como **Principio de Inversión de Dependencias (DIP)**.
 
 ---
@@ -94,14 +95,14 @@ Si tu grupo completó las Fases 1 y 2 antes del tiempo límite, implementar:
 ## Metodología de Trabajo en el Aula
 
 1. **Pair Programming (Driver / Navigator):**
-   * Una sola computadora por dupla.
-   * **Minuto 0 a 45:** Estudiante A programa (Driver), Estudiante B supervisa y revisa tests (Navigator).
-   * **Minuto 45:** **Rotación optativa (docente avisará el momento).** Estudiante B toma el teclado para implementar las estrategias y el desafío composite.
+    * Una sola computadora por dupla.
+    * **Minuto 0 a 45:** Estudiante A programa (Driver), Estudiante B supervisa y revisa tests (Navigator).
+    * **Minuto 45:** **Rotación optativa (docente avisará el momento).** Estudiante B toma el teclado para implementar las estrategias y el desafío composite.
 2. **Ciclo TDD:**
-   * Ejecutar los tests en rojo (*Red*).
-   * Escribir el código mínimo para pasar a verde (*Green*).
-   * Refactorizar.
-   * **Regla estricta:** No modificar los tests provistos.
+    * Ejecutar los tests en rojo (*Red*).
+    * Escribir el código mínimo para pasar a verde (*Green*).
+    * Refactorizar.
+    * **Regla estricta:** No modificar los tests provistos.
 3. **Entrega Formal (Últimos 15 min):**
-   * Commit + Push a tu fork de GitHub.
-   * Abrir un Pull Request al repositorio de la asignatura antes de las 21:00 hs.
+    * Commit + Push a tu fork de GitHub.
+    * Abrir un Pull Request al repositorio de la asignatura antes de las 21:00 hs.
